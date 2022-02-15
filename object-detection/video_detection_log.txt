@@ -1,0 +1,6426 @@
+ CUDNN_HALF=1 
+Demo
+net.optimized_memory = 0 
+mini_batch = 1, batch = 8, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 32032 K-images (500 Kilo-batches_64) 
+video file: /content/drive/MyDrive/yolov4/darknet/test_video.mp4
+Video stream: 640 x 480 
+Objects:
+
+
+FPS:0.0 	 AVG_FPS:0.0
+Objects:
+
+fire hydrant: 67% 
+fire hydrant: 34% 
+car: 100% 
+car: 98% 
+car: 97% 
+car: 91% 
+car: 44% 
+car: 26% 
+person: 65% 
+
+FPS:0.7 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+fire hydrant: 67% 
+car: 100% 
+car: 99% 
+car: 98% 
+car: 92% 
+car: 59% 
+car: 26% 
+car: 26% 
+person: 75% 
+person: 57% 
+
+FPS:1.4 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+fire hydrant: 28% 
+car: 100% 
+car: 98% 
+car: 94% 
+car: 91% 
+car: 50% 
+car: 27% 
+person: 80% 
+person: 69% 
+
+FPS:2.0 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 47% 
+car: 100% 
+car: 98% 
+car: 93% 
+car: 89% 
+car: 38% 
+person: 88% 
+person: 70% 
+person: 33% 
+
+FPS:2.6 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 34% 
+traffic light: 32% 
+car: 100% 
+car: 100% 
+car: 96% 
+car: 93% 
+car: 86% 
+car: 74% 
+car: 36% 
+
+FPS:3.0 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 35% 
+traffic light: 29% 
+car: 100% 
+car: 100% 
+car: 96% 
+car: 92% 
+car: 85% 
+car: 64% 
+car: 33% 
+
+FPS:3.5 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 48% 
+car: 100% 
+car: 100% 
+car: 98% 
+car: 87% 
+car: 78% 
+car: 63% 
+car: 37% 
+
+FPS:3.9 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 97% 
+car: 90% 
+car: 87% 
+car: 70% 
+car: 41% 
+car: 39% 
+car: 37% 
+
+FPS:4.2 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 29% 
+car: 100% 
+car: 100% 
+car: 97% 
+car: 90% 
+car: 75% 
+car: 67% 
+car: 36% 
+
+FPS:4.6 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 97% 
+car: 93% 
+car: 69% 
+car: 66% 
+car: 31% 
+car: 30% 
+
+FPS:4.8 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+car: 100% 
+car: 100% 
+car: 96% 
+car: 91% 
+car: 60% 
+car: 44% 
+car: 39% 
+car: 38% 
+car: 34% 
+car: 33% 
+car: 31% 
+person: 27% 
+
+FPS:5.1 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 96% 
+car: 90% 
+car: 64% 
+car: 55% 
+car: 48% 
+car: 35% 
+car: 30% 
+person: 27% 
+
+FPS:5.3 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+car: 100% 
+car: 100% 
+car: 97% 
+car: 92% 
+car: 66% 
+car: 52% 
+car: 47% 
+car: 42% 
+car: 31% 
+
+FPS:5.5 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 28% 
+car: 100% 
+car: 100% 
+car: 97% 
+car: 89% 
+car: 78% 
+car: 62% 
+car: 60% 
+car: 53% 
+car: 45% 
+car: 41% 
+car: 25% 
+person: 29% 
+
+FPS:5.7 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 41% 
+car: 100% 
+car: 100% 
+car: 96% 
+car: 88% 
+car: 87% 
+car: 58% 
+car: 54% 
+car: 33% 
+car: 31% 
+
+FPS:5.9 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+truck: 29% 
+car: 100% 
+car: 100% 
+car: 97% 
+car: 81% 
+car: 71% 
+car: 52% 
+car: 39% 
+car: 35% 
+car: 28% 
+
+FPS:6.0 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 97% 
+car: 77% 
+car: 74% 
+car: 61% 
+car: 56% 
+car: 47% 
+car: 32% 
+person: 26% 
+
+FPS:6.2 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 98% 
+car: 74% 
+car: 58% 
+car: 49% 
+car: 49% 
+car: 33% 
+car: 29% 
+person: 28% 
+person: 26% 
+
+FPS:6.3 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 96% 
+car: 71% 
+car: 56% 
+car: 47% 
+car: 44% 
+car: 37% 
+
+FPS:6.4 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 97% 
+car: 78% 
+car: 69% 
+car: 66% 
+car: 42% 
+car: 38% 
+car: 27% 
+
+FPS:6.5 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 28% 
+car: 100% 
+car: 100% 
+car: 96% 
+car: 69% 
+car: 60% 
+car: 58% 
+car: 31% 
+car: 30% 
+car: 30% 
+
+FPS:6.6 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 28% 
+car: 100% 
+car: 100% 
+car: 97% 
+car: 63% 
+car: 62% 
+car: 52% 
+car: 32% 
+
+FPS:6.7 	 AVG_FPS:0.0
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 97% 
+car: 61% 
+car: 54% 
+car: 33% 
+person: 29% 
+
+FPS:6.8 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+car: 100% 
+car: 99% 
+car: 96% 
+car: 68% 
+car: 63% 
+car: 32% 
+
+FPS:6.9 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 37% 
+car: 100% 
+car: 99% 
+car: 97% 
+car: 79% 
+car: 68% 
+car: 45% 
+car: 26% 
+
+FPS:7.0 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 32% 
+car: 100% 
+car: 99% 
+car: 96% 
+car: 86% 
+car: 40% 
+car: 33% 
+car: 31% 
+person: 40% 
+
+FPS:7.0 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 90% 
+car: 85% 
+car: 58% 
+car: 35% 
+car: 25% 
+
+FPS:7.1 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 100% 
+car: 99% 
+car: 95% 
+car: 90% 
+car: 70% 
+car: 50% 
+car: 45% 
+car: 30% 
+
+FPS:7.1 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 54% 
+car: 100% 
+car: 99% 
+car: 94% 
+car: 91% 
+car: 74% 
+car: 46% 
+car: 43% 
+car: 27% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 49% 
+car: 100% 
+car: 99% 
+car: 93% 
+car: 92% 
+car: 77% 
+car: 51% 
+car: 35% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 51% 
+traffic light: 30% 
+car: 100% 
+car: 100% 
+car: 93% 
+car: 92% 
+car: 78% 
+car: 45% 
+car: 39% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 91% 
+car: 90% 
+car: 81% 
+car: 65% 
+car: 48% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 35% 
+car: 100% 
+car: 100% 
+car: 93% 
+car: 90% 
+car: 87% 
+car: 44% 
+car: 36% 
+car: 29% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 100% 
+car: 99% 
+car: 94% 
+car: 91% 
+car: 91% 
+car: 43% 
+car: 37% 
+car: 35% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 45% 
+car: 99% 
+car: 99% 
+car: 90% 
+car: 85% 
+car: 78% 
+car: 36% 
+person: 30% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 47% 
+car: 100% 
+car: 99% 
+car: 93% 
+car: 88% 
+car: 78% 
+car: 35% 
+car: 29% 
+car: 28% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 48% 
+car: 100% 
+car: 99% 
+car: 91% 
+car: 91% 
+car: 84% 
+car: 33% 
+car: 30% 
+person: 35% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 37% 
+car: 100% 
+car: 99% 
+car: 90% 
+car: 88% 
+car: 87% 
+car: 36% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 33% 
+traffic light: 25% 
+car: 100% 
+car: 99% 
+car: 95% 
+car: 83% 
+car: 83% 
+car: 32% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 95% 
+car: 84% 
+car: 84% 
+car: 32% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 29% 
+car: 100% 
+car: 99% 
+car: 93% 
+car: 89% 
+car: 80% 
+car: 36% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 34% 
+car: 100% 
+car: 99% 
+car: 95% 
+car: 88% 
+car: 78% 
+car: 30% 
+car: 29% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 49% 
+traffic light: 40% 
+car: 100% 
+car: 99% 
+car: 94% 
+car: 91% 
+car: 77% 
+car: 33% 
+car: 26% 
+person: 27% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 46% 
+traffic light: 39% 
+car: 100% 
+car: 99% 
+car: 93% 
+car: 90% 
+car: 78% 
+car: 26% 
+
+FPS:7.6 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 50% 
+traffic light: 25% 
+car: 100% 
+car: 99% 
+car: 91% 
+car: 89% 
+car: 71% 
+car: 29% 
+person: 34% 
+
+FPS:7.6 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 43% 
+traffic light: 29% 
+car: 100% 
+car: 99% 
+car: 92% 
+car: 88% 
+car: 62% 
+car: 34% 
+person: 29% 
+person: 28% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 39% 
+traffic light: 30% 
+car: 100% 
+car: 99% 
+car: 92% 
+car: 88% 
+car: 68% 
+person: 58% 
+person: 40% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 50% 
+traffic light: 32% 
+car: 100% 
+car: 99% 
+car: 89% 
+car: 87% 
+car: 67% 
+car: 33% 
+person: 58% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 80% 
+car: 74% 
+car: 47% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 72% 
+car: 72% 
+car: 36% 
+person: 37% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 27% 
+car: 99% 
+car: 99% 
+car: 81% 
+car: 77% 
+car: 37% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 50% 
+traffic light: 34% 
+traffic light: 26% 
+car: 99% 
+car: 99% 
+car: 91% 
+car: 84% 
+car: 43% 
+person: 46% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 43% 
+traffic light: 38% 
+traffic light: 27% 
+car: 100% 
+car: 98% 
+car: 82% 
+car: 82% 
+car: 40% 
+person: 31% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 44% 
+traffic light: 34% 
+traffic light: 31% 
+traffic light: 26% 
+car: 100% 
+car: 96% 
+car: 88% 
+car: 77% 
+car: 51% 
+car: 30% 
+person: 49% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 51% 
+traffic light: 49% 
+traffic light: 28% 
+traffic light: 26% 
+car: 99% 
+car: 97% 
+car: 92% 
+car: 84% 
+car: 48% 
+car: 30% 
+person: 51% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 49% 
+traffic light: 41% 
+car: 99% 
+car: 97% 
+car: 83% 
+car: 77% 
+car: 44% 
+car: 32% 
+person: 45% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 48% 
+traffic light: 48% 
+traffic light: 30% 
+car: 99% 
+car: 97% 
+car: 86% 
+car: 85% 
+car: 42% 
+car: 33% 
+car: 30% 
+car: 30% 
+car: 29% 
+person: 66% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 60% 
+traffic light: 49% 
+car: 99% 
+car: 95% 
+car: 93% 
+car: 86% 
+car: 38% 
+car: 36% 
+car: 27% 
+person: 50% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 54% 
+traffic light: 48% 
+car: 99% 
+car: 96% 
+car: 93% 
+car: 89% 
+car: 55% 
+car: 34% 
+car: 25% 
+car: 25% 
+person: 76% 
+person: 27% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 50% 
+traffic light: 36% 
+car: 100% 
+car: 96% 
+car: 82% 
+car: 80% 
+car: 61% 
+car: 37% 
+car: 35% 
+car: 34% 
+car: 31% 
+person: 54% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 57% 
+traffic light: 48% 
+car: 99% 
+car: 96% 
+car: 83% 
+car: 79% 
+car: 74% 
+car: 73% 
+car: 40% 
+car: 30% 
+car: 26% 
+person: 44% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 73% 
+traffic light: 46% 
+car: 98% 
+car: 97% 
+car: 88% 
+car: 82% 
+car: 79% 
+car: 71% 
+car: 46% 
+person: 57% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 57% 
+traffic light: 47% 
+car: 98% 
+car: 92% 
+car: 91% 
+car: 87% 
+car: 84% 
+car: 82% 
+car: 54% 
+car: 44% 
+person: 60% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 63% 
+traffic light: 30% 
+traffic light: 25% 
+car: 99% 
+car: 97% 
+car: 96% 
+car: 94% 
+car: 88% 
+car: 78% 
+car: 61% 
+car: 43% 
+car: 34% 
+person: 73% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 53% 
+traffic light: 44% 
+traffic light: 27% 
+traffic light: 25% 
+car: 99% 
+car: 98% 
+car: 95% 
+car: 89% 
+car: 86% 
+car: 82% 
+car: 81% 
+car: 45% 
+car: 37% 
+person: 66% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 60% 
+traffic light: 45% 
+traffic light: 44% 
+car: 91% 
+car: 90% 
+car: 89% 
+car: 84% 
+car: 84% 
+car: 81% 
+car: 67% 
+car: 30% 
+person: 62% 
+person: 53% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 55% 
+traffic light: 42% 
+traffic light: 42% 
+car: 94% 
+car: 92% 
+car: 92% 
+car: 77% 
+car: 68% 
+car: 66% 
+car: 49% 
+car: 47% 
+car: 33% 
+person: 60% 
+person: 30% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 52% 
+traffic light: 37% 
+traffic light: 36% 
+car: 97% 
+car: 95% 
+car: 87% 
+car: 83% 
+car: 82% 
+car: 53% 
+car: 51% 
+car: 40% 
+person: 53% 
+person: 30% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 58% 
+traffic light: 40% 
+traffic light: 36% 
+car: 98% 
+car: 95% 
+car: 90% 
+car: 86% 
+car: 86% 
+car: 76% 
+car: 64% 
+car: 45% 
+car: 32% 
+bicycle: 45% 
+person: 84% 
+person: 38% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 58% 
+traffic light: 54% 
+traffic light: 35% 
+truck: 26% 
+car: 95% 
+car: 89% 
+car: 88% 
+car: 87% 
+car: 85% 
+car: 77% 
+car: 57% 
+car: 54% 
+car: 48% 
+bicycle: 25% 
+person: 81% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 52% 
+traffic light: 51% 
+traffic light: 28% 
+truck: 36% 
+car: 99% 
+car: 88% 
+car: 78% 
+car: 75% 
+car: 63% 
+car: 63% 
+car: 57% 
+car: 54% 
+car: 30% 
+bicycle: 52% 
+person: 82% 
+person: 30% 
+person: 29% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 48% 
+traffic light: 45% 
+traffic light: 29% 
+car: 97% 
+car: 92% 
+car: 92% 
+car: 77% 
+car: 60% 
+car: 55% 
+car: 52% 
+car: 48% 
+car: 42% 
+car: 33% 
+car: 31% 
+car: 31% 
+car: 29% 
+car: 26% 
+bicycle: 74% 
+person: 58% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 69% 
+traffic light: 48% 
+traffic light: 30% 
+truck: 33% 
+car: 98% 
+car: 96% 
+car: 80% 
+car: 72% 
+car: 60% 
+car: 59% 
+car: 46% 
+car: 43% 
+car: 28% 
+car: 27% 
+car: 25% 
+bicycle: 59% 
+person: 27% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+handbag: 38% 
+traffic light: 53% 
+traffic light: 37% 
+traffic light: 33% 
+traffic light: 26% 
+truck: 30% 
+car: 98% 
+car: 95% 
+car: 90% 
+car: 81% 
+car: 70% 
+car: 57% 
+car: 51% 
+car: 44% 
+car: 37% 
+car: 33% 
+car: 32% 
+bicycle: 58% 
+person: 65% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 49% 
+traffic light: 40% 
+truck: 27% 
+car: 96% 
+car: 94% 
+car: 92% 
+car: 71% 
+car: 62% 
+car: 55% 
+car: 51% 
+car: 47% 
+car: 30% 
+car: 29% 
+bicycle: 65% 
+person: 57% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 65% 
+traffic light: 54% 
+traffic light: 36% 
+car: 98% 
+car: 94% 
+car: 92% 
+car: 74% 
+car: 71% 
+car: 52% 
+car: 45% 
+car: 30% 
+car: 26% 
+car: 25% 
+bicycle: 42% 
+person: 55% 
+person: 50% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 69% 
+traffic light: 51% 
+traffic light: 34% 
+traffic light: 26% 
+car: 98% 
+car: 92% 
+car: 85% 
+car: 73% 
+car: 62% 
+car: 57% 
+car: 38% 
+car: 30% 
+bicycle: 49% 
+person: 43% 
+person: 40% 
+person: 32% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 66% 
+traffic light: 48% 
+traffic light: 31% 
+car: 99% 
+car: 94% 
+car: 92% 
+car: 70% 
+car: 60% 
+car: 59% 
+car: 37% 
+car: 36% 
+car: 25% 
+person: 54% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 62% 
+traffic light: 58% 
+traffic light: 29% 
+car: 99% 
+car: 90% 
+car: 87% 
+car: 87% 
+car: 75% 
+car: 42% 
+car: 42% 
+car: 39% 
+person: 63% 
+person: 43% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 72% 
+traffic light: 63% 
+traffic light: 31% 
+car: 99% 
+car: 92% 
+car: 89% 
+car: 89% 
+car: 76% 
+car: 46% 
+car: 45% 
+car: 34% 
+car: 31% 
+person: 54% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 65% 
+traffic light: 58% 
+traffic light: 44% 
+traffic light: 27% 
+car: 99% 
+car: 96% 
+car: 92% 
+car: 87% 
+car: 81% 
+car: 64% 
+car: 45% 
+car: 34% 
+person: 34% 
+person: 33% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 62% 
+traffic light: 47% 
+traffic light: 41% 
+car: 99% 
+car: 99% 
+car: 91% 
+car: 87% 
+car: 84% 
+car: 64% 
+car: 57% 
+car: 37% 
+car: 27% 
+person: 57% 
+person: 50% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 65% 
+traffic light: 57% 
+traffic light: 52% 
+truck: 26% 
+car: 98% 
+car: 91% 
+car: 90% 
+car: 90% 
+car: 90% 
+car: 87% 
+car: 59% 
+car: 33% 
+car: 27% 
+car: 27% 
+car: 27% 
+person: 57% 
+person: 55% 
+person: 37% 
+person: 29% 
+
+FPS:7.5 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 58% 
+traffic light: 56% 
+traffic light: 37% 
+car: 99% 
+car: 93% 
+car: 90% 
+car: 90% 
+car: 86% 
+car: 83% 
+car: 50% 
+car: 36% 
+car: 34% 
+car: 28% 
+bicycle: 38% 
+person: 71% 
+person: 65% 
+person: 33% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 48% 
+traffic light: 42% 
+traffic light: 35% 
+car: 97% 
+car: 94% 
+car: 93% 
+car: 89% 
+car: 88% 
+car: 84% 
+car: 55% 
+car: 35% 
+car: 27% 
+bicycle: 51% 
+person: 79% 
+person: 51% 
+person: 43% 
+person: 31% 
+person: 28% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 56% 
+traffic light: 43% 
+traffic light: 34% 
+car: 97% 
+car: 95% 
+car: 86% 
+car: 86% 
+car: 85% 
+car: 84% 
+car: 48% 
+car: 42% 
+car: 33% 
+car: 30% 
+bicycle: 61% 
+person: 66% 
+person: 42% 
+person: 33% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 54% 
+traffic light: 46% 
+traffic light: 45% 
+traffic light: 31% 
+car: 98% 
+car: 95% 
+car: 94% 
+car: 84% 
+car: 80% 
+car: 70% 
+car: 51% 
+car: 44% 
+car: 35% 
+car: 33% 
+car: 30% 
+car: 27% 
+bicycle: 66% 
+person: 78% 
+person: 61% 
+person: 46% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 51% 
+traffic light: 38% 
+traffic light: 28% 
+car: 99% 
+car: 97% 
+car: 95% 
+car: 79% 
+car: 72% 
+car: 70% 
+car: 55% 
+car: 51% 
+car: 36% 
+car: 35% 
+car: 27% 
+bicycle: 36% 
+person: 66% 
+person: 45% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 76% 
+traffic light: 57% 
+traffic light: 55% 
+car: 98% 
+car: 96% 
+car: 95% 
+car: 73% 
+car: 68% 
+car: 63% 
+car: 51% 
+car: 44% 
+car: 37% 
+car: 32% 
+car: 28% 
+person: 74% 
+person: 42% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 67% 
+traffic light: 52% 
+traffic light: 37% 
+truck: 29% 
+car: 86% 
+car: 99% 
+car: 94% 
+car: 90% 
+car: 63% 
+car: 60% 
+car: 50% 
+car: 37% 
+car: 35% 
+car: 34% 
+car: 25% 
+person: 85% 
+person: 48% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 42% 
+traffic light: 41% 
+traffic light: 36% 
+truck: 25% 
+car: 99% 
+car: 95% 
+car: 87% 
+car: 81% 
+car: 77% 
+car: 59% 
+car: 49% 
+car: 48% 
+car: 43% 
+car: 34% 
+car: 33% 
+person: 67% 
+person: 42% 
+
+FPS:7.6 	 AVG_FPS:7.6
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 66% 
+traffic light: 37% 
+traffic light: 35% 
+truck: 39% 
+car: 78% 
+car: 99% 
+car: 92% 
+car: 82% 
+car: 66% 
+car: 57% 
+car: 52% 
+car: 38% 
+car: 37% 
+car: 34% 
+car: 32% 
+bicycle: 38% 
+person: 79% 
+person: 39% 
+person: 32% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 56% 
+traffic light: 51% 
+truck: 25% 
+car: 99% 
+car: 99% 
+car: 91% 
+car: 83% 
+car: 81% 
+car: 62% 
+car: 51% 
+car: 50% 
+car: 30% 
+bicycle: 36% 
+person: 60% 
+person: 41% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 59% 
+traffic light: 53% 
+car: 98% 
+car: 98% 
+car: 85% 
+car: 85% 
+car: 68% 
+car: 65% 
+car: 65% 
+car: 34% 
+person: 54% 
+person: 36% 
+person: 30% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 38% 
+traffic light: 38% 
+traffic light: 35% 
+traffic light: 33% 
+truck: 26% 
+car: 97% 
+car: 94% 
+car: 86% 
+car: 73% 
+car: 66% 
+car: 39% 
+car: 35% 
+car: 25% 
+person: 53% 
+person: 43% 
+person: 35% 
+person: 26% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 53% 
+traffic light: 50% 
+traffic light: 43% 
+traffic light: 38% 
+traffic light: 35% 
+truck: 36% 
+car: 83% 
+car: 97% 
+car: 86% 
+car: 79% 
+car: 56% 
+car: 48% 
+car: 35% 
+car: 31% 
+car: 27% 
+person: 55% 
+person: 34% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 42% 
+traffic light: 31% 
+car: 98% 
+car: 98% 
+car: 86% 
+car: 85% 
+car: 55% 
+car: 38% 
+car: 32% 
+car: 31% 
+car: 30% 
+person: 38% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 61% 
+traffic light: 51% 
+car: 93% 
+car: 89% 
+car: 86% 
+car: 86% 
+car: 51% 
+car: 48% 
+car: 47% 
+person: 61% 
+person: 51% 
+person: 32% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 65% 
+traffic light: 46% 
+truck: 27% 
+car: 86% 
+car: 94% 
+car: 94% 
+car: 87% 
+car: 58% 
+car: 56% 
+car: 45% 
+person: 57% 
+person: 47% 
+person: 40% 
+person: 26% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 63% 
+traffic light: 45% 
+traffic light: 27% 
+traffic light: 25% 
+car: 96% 
+car: 95% 
+car: 92% 
+car: 81% 
+car: 61% 
+car: 56% 
+car: 50% 
+person: 43% 
+person: 43% 
+person: 38% 
+person: 38% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 74% 
+traffic light: 60% 
+traffic light: 31% 
+car: 95% 
+car: 93% 
+car: 93% 
+car: 84% 
+car: 76% 
+car: 56% 
+car: 54% 
+car: 51% 
+person: 72% 
+person: 68% 
+person: 63% 
+person: 40% 
+person: 32% 
+person: 32% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 49% 
+traffic light: 44% 
+truck: 55% 
+car: 50% 
+car: 96% 
+car: 92% 
+car: 88% 
+car: 73% 
+car: 63% 
+car: 45% 
+person: 76% 
+person: 73% 
+person: 71% 
+person: 56% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 48% 
+traffic light: 43% 
+car: 95% 
+car: 90% 
+car: 89% 
+car: 86% 
+car: 67% 
+car: 58% 
+car: 47% 
+car: 36% 
+person: 82% 
+person: 76% 
+person: 75% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 80% 
+traffic light: 42% 
+truck: 28% 
+car: 81% 
+car: 97% 
+car: 93% 
+car: 89% 
+car: 70% 
+car: 60% 
+car: 44% 
+car: 26% 
+person: 77% 
+person: 76% 
+person: 55% 
+person: 46% 
+person: 43% 
+person: 35% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 64% 
+traffic light: 35% 
+truck: 32% 
+car: 80% 
+car: 94% 
+car: 92% 
+car: 80% 
+car: 74% 
+car: 65% 
+car: 50% 
+person: 51% 
+person: 41% 
+person: 35% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 70% 
+traffic light: 67% 
+truck: 31% 
+car: 77% 
+car: 94% 
+car: 92% 
+car: 82% 
+car: 71% 
+car: 67% 
+car: 57% 
+car: 46% 
+person: 70% 
+person: 69% 
+person: 67% 
+person: 55% 
+person: 55% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 63% 
+traffic light: 62% 
+traffic light: 60% 
+truck: 62% 
+car: 56% 
+car: 88% 
+car: 87% 
+car: 86% 
+car: 65% 
+car: 59% 
+car: 57% 
+car: 52% 
+person: 69% 
+person: 37% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 66% 
+traffic light: 61% 
+traffic light: 58% 
+car: 70% , truck: 37% 
+car: 87% 
+car: 87% 
+car: 83% 
+car: 78% 
+car: 59% 
+car: 58% 
+car: 50% 
+person: 68% 
+person: 58% 
+person: 41% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 82% 
+traffic light: 71% 
+traffic light: 59% 
+car: 90% 
+car: 88% 
+car: 85% 
+car: 83% 
+car: 81% 
+car: 74% 
+car: 61% 
+car: 39% 
+car: 38% 
+car: 27% 
+person: 57% 
+person: 34% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 64% 
+traffic light: 48% 
+traffic light: 39% 
+traffic light: 27% 
+car: 85% 
+car: 84% 
+car: 83% 
+car: 72% 
+car: 66% 
+car: 60% 
+car: 56% 
+car: 47% 
+car: 39% 
+person: 81% 
+person: 40% 
+person: 34% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 54% 
+traffic light: 45% 
+traffic light: 30% 
+car: 92% 
+car: 84% 
+car: 81% 
+car: 77% 
+car: 75% 
+car: 74% 
+car: 41% 
+car: 27% 
+person: 83% 
+person: 46% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 69% 
+traffic light: 35% 
+traffic light: 31% 
+car: 97% 
+car: 94% 
+car: 75% 
+car: 74% 
+car: 67% 
+car: 67% 
+car: 36% 
+car: 29% 
+person: 85% 
+person: 46% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 63% 
+traffic light: 61% 
+traffic light: 42% 
+traffic light: 26% 
+car: 97% 
+car: 90% 
+car: 90% 
+car: 84% 
+car: 74% 
+car: 68% 
+car: 31% 
+person: 77% 
+person: 47% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 78% 
+traffic light: 71% 
+traffic light: 67% 
+traffic light: 47% 
+traffic light: 36% 
+traffic light: 26% 
+car: 98% 
+car: 94% 
+car: 94% 
+car: 68% 
+car: 58% 
+car: 40% 
+car: 39% 
+person: 82% 
+person: 81% 
+person: 50% 
+person: 34% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 71% 
+traffic light: 70% 
+traffic light: 67% 
+traffic light: 40% 
+traffic light: 37% 
+car: 97% 
+car: 94% 
+car: 87% 
+car: 56% 
+car: 52% 
+car: 50% 
+car: 49% 
+car: 42% 
+person: 83% 
+person: 77% 
+person: 61% 
+person: 52% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 75% 
+traffic light: 57% 
+traffic light: 55% 
+car: 98% 
+car: 94% 
+car: 85% 
+car: 65% 
+car: 48% 
+car: 47% 
+car: 33% 
+person: 83% 
+person: 43% 
+person: 42% 
+person: 38% 
+person: 37% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 74% 
+traffic light: 32% 
+car: 98% 
+car: 93% 
+car: 89% 
+car: 77% 
+car: 69% 
+car: 44% 
+car: 42% 
+person: 83% 
+person: 68% 
+person: 34% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 61% 
+traffic light: 61% 
+traffic light: 50% 
+traffic light: 30% 
+car: 98% 
+car: 95% 
+car: 88% 
+car: 85% 
+car: 71% 
+car: 52% 
+car: 39% 
+person: 85% 
+person: 51% 
+person: 41% 
+person: 31% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 69% 
+traffic light: 57% 
+car: 99% 
+car: 97% 
+car: 75% 
+car: 65% 
+car: 56% 
+car: 49% 
+car: 42% 
+person: 84% 
+person: 82% 
+person: 53% 
+person: 42% 
+person: 28% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 68% 
+traffic light: 64% 
+traffic light: 41% 
+traffic light: 25% 
+car: 99% 
+car: 93% 
+car: 88% 
+car: 69% 
+car: 65% 
+car: 57% 
+car: 41% 
+person: 91% 
+person: 85% 
+person: 62% 
+person: 58% 
+person: 32% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+parking meter: 36% 
+traffic light: 71% 
+traffic light: 60% 
+traffic light: 34% 
+traffic light: 28% 
+truck: 28% 
+car: 99% 
+car: 98% 
+car: 81% 
+car: 78% 
+car: 74% 
+car: 65% 
+car: 56% 
+person: 90% 
+person: 76% 
+person: 49% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 76% 
+traffic light: 66% 
+traffic light: 41% 
+truck: 45% 
+car: 65% 
+car: 99% 
+car: 98% 
+car: 74% 
+car: 70% 
+car: 68% 
+car: 65% 
+person: 88% 
+person: 69% 
+person: 51% 
+person: 43% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+parking meter: 42% 
+traffic light: 84% 
+traffic light: 80% 
+traffic light: 71% 
+traffic light: 60% 
+traffic light: 34% 
+traffic light: 28% 
+car: 66% , truck: 45% 
+car: 99% 
+car: 99% 
+car: 62% 
+car: 60% 
+car: 49% 
+person: 84% 
+person: 64% 
+person: 64% 
+person: 37% 
+person: 30% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 70% 
+traffic light: 52% 
+traffic light: 48% 
+traffic light: 47% 
+traffic light: 32% 
+truck: 53% 
+car: 62% 
+car: 99% 
+car: 99% 
+car: 73% 
+car: 62% 
+car: 34% 
+person: 91% 
+person: 90% 
+person: 53% 
+person: 46% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 84% 
+traffic light: 72% 
+traffic light: 70% 
+traffic light: 41% 
+traffic light: 39% 
+traffic light: 27% 
+truck: 40% 
+car: 75% 
+car: 99% 
+car: 98% 
+car: 72% 
+car: 51% 
+car: 26% 
+car: 26% 
+person: 88% 
+person: 79% 
+person: 47% 
+person: 32% 
+person: 25% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+dog: 37% 
+traffic light: 72% 
+traffic light: 51% 
+traffic light: 46% 
+traffic light: 35% 
+traffic light: 30% 
+traffic light: 28% 
+truck: 37% 
+car: 76% 
+car: 99% 
+car: 98% 
+car: 78% 
+car: 49% 
+car: 37% 
+car: 29% 
+car: 27% 
+person: 91% 
+person: 67% 
+person: 65% 
+person: 60% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 74% 
+traffic light: 74% 
+traffic light: 29% 
+truck: 62% 
+car: 70% 
+car: 100% 
+car: 99% 
+car: 78% 
+car: 40% 
+person: 94% 
+person: 81% 
+person: 55% 
+person: 52% 
+person: 51% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 84% 
+traffic light: 77% 
+traffic light: 53% 
+traffic light: 52% 
+traffic light: 44% 
+traffic light: 31% 
+truck: 40% 
+car: 82% 
+car: 99% 
+car: 98% 
+car: 71% 
+car: 54% 
+car: 38% 
+person: 96% 
+person: 80% 
+person: 65% 
+person: 51% 
+person: 46% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 64% 
+traffic light: 55% 
+traffic light: 33% 
+truck: 38% 
+car: 80% 
+car: 99% 
+car: 98% 
+car: 64% 
+car: 61% 
+car: 51% 
+person: 84% 
+person: 79% 
+person: 66% 
+person: 51% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 58% 
+traffic light: 57% 
+traffic light: 56% 
+traffic light: 35% 
+truck: 32% 
+car: 100% 
+car: 98% 
+car: 90% 
+car: 85% 
+car: 82% 
+car: 49% 
+person: 93% 
+person: 91% 
+person: 72% 
+person: 48% 
+person: 26% 
+person: 26% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 57% 
+traffic light: 53% 
+traffic light: 50% 
+traffic light: 41% 
+traffic light: 32% 
+truck: 52% 
+car: 69% 
+car: 100% 
+car: 98% 
+car: 83% 
+car: 67% 
+car: 37% 
+car: 28% 
+person: 93% 
+person: 92% 
+person: 86% 
+person: 85% 
+person: 29% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 61% 
+traffic light: 56% 
+traffic light: 53% 
+traffic light: 37% 
+traffic light: 30% 
+truck: 61% 
+car: 66% 
+car: 100% 
+car: 98% 
+car: 82% 
+car: 81% 
+car: 39% 
+person: 95% 
+person: 89% 
+person: 87% 
+person: 76% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 89% 
+traffic light: 71% 
+traffic light: 40% 
+traffic light: 32% 
+traffic light: 27% 
+truck: 70% 
+car: 72% 
+car: 100% 
+car: 97% 
+car: 88% 
+car: 84% 
+car: 28% 
+car: 27% 
+person: 95% 
+person: 93% 
+person: 89% 
+person: 88% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 83% 
+traffic light: 73% 
+traffic light: 35% 
+truck: 70% 
+car: 72% 
+car: 100% 
+car: 97% 
+car: 79% 
+car: 72% 
+car: 37% 
+car: 37% 
+car: 29% 
+person: 91% 
+person: 86% 
+person: 79% 
+person: 76% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 78% 
+traffic light: 68% 
+traffic light: 43% 
+traffic light: 31% 
+truck: 70% 
+car: 62% 
+car: 100% 
+car: 96% 
+car: 70% 
+car: 61% 
+car: 45% 
+car: 28% 
+car: 27% 
+person: 95% 
+person: 76% 
+person: 72% 
+person: 53% 
+
+FPS:7.2 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 58% 
+traffic light: 57% 
+traffic light: 33% 
+truck: 59% 
+car: 62% 
+car: 100% 
+car: 96% 
+car: 68% 
+car: 53% 
+car: 30% 
+person: 89% 
+person: 87% 
+person: 65% 
+person: 60% 
+
+FPS:7.3 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 79% 
+traffic light: 72% 
+traffic light: 36% 
+traffic light: 31% 
+truck: 54% 
+car: 75% 
+car: 100% 
+car: 93% 
+car: 91% 
+car: 50% 
+car: 38% 
+person: 86% 
+person: 73% 
+person: 59% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 78% 
+traffic light: 67% 
+traffic light: 61% 
+car: 100% 
+car: 97% 
+car: 89% 
+car: 88% 
+car: 58% 
+car: 36% 
+person: 94% 
+person: 93% 
+person: 79% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 85% 
+traffic light: 65% 
+traffic light: 60% 
+traffic light: 28% 
+car: 100% 
+car: 97% 
+car: 95% 
+car: 88% 
+car: 66% 
+car: 43% 
+person: 91% 
+person: 88% 
+person: 76% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 77% 
+traffic light: 64% 
+traffic light: 30% 
+traffic light: 27% 
+truck: 33% 
+car: 100% 
+car: 98% 
+car: 93% 
+car: 90% 
+car: 58% 
+car: 36% 
+person: 86% 
+person: 81% 
+person: 57% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+handbag: 25% 
+traffic light: 82% 
+traffic light: 78% 
+traffic light: 39% 
+traffic light: 37% 
+traffic light: 32% 
+car: 100% 
+car: 97% 
+car: 89% 
+car: 88% 
+car: 45% 
+car: 27% 
+person: 92% 
+person: 69% 
+person: 56% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 86% 
+traffic light: 80% 
+traffic light: 26% 
+truck: 31% 
+car: 100% 
+car: 97% 
+car: 92% 
+car: 79% 
+car: 52% 
+person: 94% 
+person: 92% 
+person: 73% 
+person: 33% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 77% 
+traffic light: 73% 
+traffic light: 65% 
+truck: 35% 
+car: 73% 
+car: 100% 
+car: 97% 
+car: 89% 
+car: 53% 
+car: 35% 
+person: 98% 
+person: 73% 
+person: 66% 
+person: 39% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+handbag: 31% 
+traffic light: 84% 
+traffic light: 82% 
+traffic light: 71% 
+truck: 47% 
+car: 54% 
+car: 100% 
+car: 98% 
+car: 81% 
+car: 68% 
+car: 43% 
+car: 29% 
+person: 98% 
+person: 85% 
+person: 81% 
+person: 55% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 88% 
+traffic light: 71% 
+traffic light: 42% 
+traffic light: 32% 
+truck: 35% 
+car: 76% 
+car: 100% 
+car: 98% 
+car: 78% 
+car: 46% 
+car: 41% 
+person: 96% 
+person: 91% 
+person: 81% 
+person: 32% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 85% 
+traffic light: 37% 
+traffic light: 32% 
+truck: 32% 
+car: 74% 
+car: 100% 
+car: 98% 
+car: 90% 
+car: 54% 
+car: 52% 
+person: 97% 
+person: 89% 
+person: 59% 
+person: 35% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 77% 
+traffic light: 75% 
+traffic light: 33% 
+truck: 45% 
+car: 51% 
+car: 100% 
+car: 98% 
+car: 78% 
+car: 68% 
+car: 30% 
+person: 96% 
+person: 94% 
+person: 90% 
+person: 82% 
+person: 37% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 81% 
+traffic light: 75% 
+traffic light: 49% 
+truck: 36% 
+car: 100% 
+car: 99% 
+car: 60% 
+car: 48% 
+car: 45% 
+person: 95% 
+person: 94% 
+person: 89% 
+person: 84% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 87% 
+traffic light: 67% 
+truck: 35% 
+car: 74% 
+car: 100% 
+car: 98% 
+car: 77% 
+car: 52% 
+car: 30% 
+person: 96% 
+person: 82% 
+person: 76% 
+person: 37% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 83% 
+truck: 55% 
+car: 63% 
+car: 100% 
+car: 98% 
+car: 65% 
+car: 60% 
+car: 55% 
+person: 93% 
+person: 91% 
+person: 90% 
+person: 69% 
+person: 27% 
+person: 25% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 64% 
+traffic light: 56% 
+truck: 29% 
+car: 100% 
+car: 97% 
+car: 82% 
+car: 79% 
+car: 65% 
+car: 54% 
+person: 95% 
+person: 91% 
+person: 79% 
+person: 39% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+traffic light: 26% 
+truck: 32% 
+car: 76% 
+car: 100% 
+car: 97% 
+car: 73% 
+car: 71% 
+car: 54% 
+person: 95% 
+person: 94% 
+person: 40% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 44% 
+traffic light: 37% 
+car: 100% 
+car: 97% 
+car: 88% 
+car: 88% 
+car: 77% 
+car: 46% 
+person: 80% 
+person: 43% 
+person: 40% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 59% 
+traffic light: 53% 
+car: 100% 
+car: 98% 
+car: 95% 
+car: 93% 
+car: 72% 
+car: 31% 
+person: 73% 
+person: 44% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+handbag: 37% 
+traffic light: 52% 
+car: 99% 
+car: 97% 
+car: 90% 
+car: 83% 
+car: 79% 
+car: 44% 
+car: 39% 
+car: 30% 
+person: 70% 
+person: 64% 
+person: 25% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 54% 
+car: 100% 
+car: 97% 
+car: 96% 
+car: 92% 
+car: 84% 
+car: 43% 
+person: 71% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 68% 
+traffic light: 31% 
+car: 100% 
+car: 97% 
+car: 95% 
+car: 93% 
+car: 93% 
+car: 36% 
+car: 30% 
+car: 29% 
+car: 28% 
+person: 79% 
+person: 53% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 34% 
+traffic light: 25% 
+car: 100% 
+car: 98% 
+car: 97% 
+car: 95% 
+car: 93% 
+car: 34% 
+car: 31% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 97% 
+car: 96% 
+car: 88% 
+car: 51% 
+car: 48% 
+car: 44% 
+car: 35% 
+person: 52% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 43% 
+car: 100% 
+car: 98% 
+car: 97% 
+car: 93% 
+car: 90% 
+car: 56% 
+car: 55% 
+car: 31% 
+car: 26% 
+person: 55% 
+person: 39% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 39% 
+traffic light: 26% 
+car: 100% 
+car: 99% 
+car: 96% 
+car: 94% 
+car: 91% 
+car: 64% 
+car: 42% 
+car: 34% 
+car: 32% 
+person: 62% 
+person: 61% 
+person: 41% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 29% 
+car: 100% 
+car: 98% 
+car: 96% 
+car: 91% 
+car: 82% 
+car: 61% 
+car: 35% 
+car: 27% 
+person: 69% 
+person: 49% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 51% 
+car: 100% 
+car: 99% 
+car: 96% 
+car: 85% 
+car: 74% 
+car: 60% 
+car: 38% 
+car: 37% 
+person: 69% 
+person: 60% 
+person: 47% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 95% 
+car: 86% 
+car: 75% 
+car: 58% 
+person: 61% 
+person: 34% 
+person: 26% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 46% 
+car: 100% 
+car: 99% 
+car: 97% 
+car: 96% 
+car: 88% 
+car: 42% 
+person: 53% 
+person: 37% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 96% 
+car: 74% 
+person: 62% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 96% 
+car: 83% 
+car: 26% 
+person: 55% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+traffic light: 28% 
+car: 100% 
+car: 99% 
+car: 98% 
+car: 95% 
+car: 76% 
+car: 64% 
+car: 27% 
+person: 57% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 95% 
+car: 86% 
+car: 83% 
+person: 37% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 96% 
+car: 91% 
+car: 71% 
+car: 38% 
+person: 47% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 95% 
+car: 94% 
+car: 81% 
+car: 72% 
+car: 38% 
+car: 28% 
+person: 44% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 89% 
+car: 79% 
+car: 69% 
+car: 37% 
+person: 28% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 99% 
+car: 96% 
+car: 62% 
+car: 60% 
+car: 39% 
+
+FPS:7.4 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 99% 
+car: 97% 
+car: 62% 
+car: 60% 
+car: 57% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 98% 
+car: 96% 
+car: 66% 
+car: 58% 
+car: 41% 
+car: 32% 
+person: 51% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 99% 
+car: 97% 
+car: 41% 
+car: 32% 
+car: 31% 
+person: 40% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 97% 
+car: 66% 
+car: 32% 
+person: 50% 
+person: 47% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 27% 
+car: 100% 
+car: 99% 
+car: 98% 
+car: 97% 
+car: 58% 
+car: 32% 
+car: 28% 
+person: 49% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 38% 
+car: 100% 
+car: 99% 
+car: 99% 
+car: 96% 
+car: 53% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 99% 
+car: 97% 
+car: 58% 
+car: 31% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 99% 
+car: 96% 
+car: 56% 
+car: 51% 
+person: 62% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 94% 
+car: 46% 
+car: 40% 
+car: 32% 
+person: 62% 
+
+FPS:7.5 	 AVG_FPS:7.4
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 93% 
+car: 92% 
+car: 61% 
+car: 60% 
+car: 42% 
+car: 30% 
+car: 27% 
+person: 48% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 84% 
+car: 84% 
+car: 68% 
+car: 61% 
+car: 39% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 91% 
+car: 88% 
+car: 58% 
+car: 31% 
+car: 28% 
+person: 46% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 26% 
+car: 100% 
+car: 96% 
+car: 93% 
+car: 93% 
+car: 86% 
+car: 44% 
+car: 37% 
+car: 28% 
+car: 28% 
+person: 37% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 96% 
+car: 94% 
+car: 83% 
+car: 42% 
+car: 27% 
+person: 39% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 96% 
+car: 93% 
+car: 51% 
+car: 46% 
+car: 29% 
+person: 28% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 29% 
+car: 100% 
+car: 98% 
+car: 97% 
+car: 89% 
+car: 56% 
+car: 27% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+boat: 29% 
+car: 100% 
+car: 99% 
+car: 93% 
+car: 85% 
+car: 54% 
+car: 29% 
+car: 27% 
+person: 36% 
+person: 35% 
+person: 27% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 87% 
+car: 45% 
+car: 27% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 100% 
+car: 99% 
+car: 98% 
+car: 93% 
+car: 54% 
+car: 30% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 95% 
+car: 88% 
+car: 60% 
+car: 26% 
+car: 25% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 92% 
+car: 88% 
+car: 61% 
+car: 28% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 32% 
+car: 100% 
+car: 100% 
+car: 93% 
+car: 92% 
+car: 58% 
+car: 28% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 29% 
+car: 100% 
+car: 99% 
+car: 93% 
+car: 80% 
+car: 56% 
+car: 42% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 100% 
+car: 100% 
+car: 90% 
+car: 84% 
+car: 54% 
+car: 38% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 30% 
+car: 100% 
+car: 100% 
+car: 91% 
+car: 87% 
+car: 68% 
+car: 51% 
+car: 46% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 100% 
+car: 94% 
+car: 89% 
+car: 84% 
+car: 73% 
+car: 45% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 92% 
+car: 89% 
+car: 89% 
+car: 75% 
+car: 36% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 97% 
+car: 93% 
+car: 86% 
+car: 69% 
+car: 63% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 95% 
+car: 88% 
+car: 83% 
+car: 57% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 96% 
+car: 96% 
+car: 94% 
+car: 53% 
+car: 52% 
+car: 30% 
+person: 48% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 97% 
+car: 97% 
+car: 58% 
+car: 56% 
+person: 37% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 41% 
+car: 100% 
+car: 98% 
+car: 97% 
+car: 96% 
+car: 88% 
+car: 51% 
+car: 27% 
+person: 64% 
+person: 49% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 41% 
+car: 87% 
+car: 100% 
+car: 98% 
+car: 95% 
+car: 94% 
+car: 48% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 67% 
+car: 74% 
+car: 100% 
+car: 98% 
+car: 97% 
+car: 93% 
+car: 36% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 29% 
+car: 100% 
+car: 98% 
+car: 96% 
+car: 94% 
+car: 94% 
+car: 58% 
+car: 55% 
+car: 29% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 97% 
+car: 97% 
+car: 96% 
+car: 87% 
+car: 39% 
+car: 34% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 40% 
+car: 100% 
+car: 99% 
+car: 94% 
+car: 91% 
+car: 82% 
+car: 56% 
+car: 47% 
+person: 32% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 30% 
+truck: 38% 
+car: 100% 
+car: 98% 
+car: 91% 
+car: 83% 
+car: 83% 
+car: 53% 
+car: 51% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 60% 
+car: 78% 
+car: 100% 
+car: 98% 
+car: 87% 
+car: 68% 
+car: 63% 
+car: 41% 
+car: 33% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 33% 
+car: 99% 
+car: 99% 
+car: 89% 
+car: 86% 
+car: 58% 
+car: 46% 
+car: 31% 
+person: 47% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 99% 
+car: 79% 
+car: 71% 
+car: 53% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 97% 
+car: 92% 
+car: 81% 
+car: 53% 
+car: 51% 
+car: 42% 
+person: 54% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 95% 
+car: 92% 
+car: 78% 
+car: 64% 
+car: 54% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 94% 
+car: 92% 
+car: 81% 
+car: 69% 
+car: 39% 
+car: 34% 
+car: 30% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 97% 
+car: 96% 
+car: 78% 
+car: 55% 
+car: 54% 
+car: 32% 
+car: 31% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 96% 
+car: 92% 
+car: 75% 
+car: 60% 
+car: 45% 
+car: 39% 
+car: 36% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 94% 
+car: 74% 
+car: 62% 
+car: 53% 
+car: 47% 
+car: 37% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 97% 
+car: 93% 
+car: 74% 
+car: 59% 
+car: 57% 
+car: 49% 
+car: 47% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 98% 
+car: 74% 
+car: 64% 
+car: 57% 
+car: 49% 
+car: 27% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 97% 
+car: 96% 
+car: 86% 
+car: 68% 
+car: 62% 
+car: 40% 
+car: 34% 
+person: 73% 
+person: 53% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 99% 
+car: 96% 
+car: 95% 
+car: 89% 
+car: 70% 
+car: 42% 
+car: 36% 
+person: 66% 
+person: 42% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 91% 
+car: 57% 
+car: 57% 
+car: 36% 
+car: 35% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 98% 
+car: 92% 
+car: 62% 
+car: 59% 
+car: 33% 
+person: 74% 
+person: 57% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 98% 
+car: 95% 
+car: 92% 
+car: 51% 
+car: 51% 
+car: 48% 
+car: 30% 
+person: 48% 
+person: 45% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 92% 
+car: 89% 
+car: 79% 
+car: 47% 
+car: 43% 
+car: 36% 
+person: 79% 
+person: 69% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 39% 
+car: 76% 
+car: 99% 
+car: 98% 
+car: 92% 
+car: 55% 
+car: 52% 
+car: 39% 
+person: 69% 
+person: 27% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+truck: 26% 
+car: 99% 
+car: 92% 
+car: 92% 
+car: 87% 
+car: 55% 
+car: 30% 
+car: 29% 
+person: 64% 
+person: 50% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 98% 
+car: 92% 
+car: 92% 
+car: 44% 
+car: 38% 
+person: 76% 
+person: 26% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+truck: 28% 
+car: 99% 
+car: 99% 
+car: 90% 
+car: 75% 
+car: 50% 
+car: 48% 
+car: 36% 
+car: 32% 
+person: 41% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 95% 
+car: 92% 
+car: 76% 
+car: 42% 
+car: 36% 
+person: 54% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 91% 
+car: 90% 
+car: 44% 
+car: 39% 
+person: 33% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 88% 
+car: 87% 
+car: 54% 
+car: 51% 
+person: 62% 
+person: 51% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 92% 
+car: 89% 
+car: 42% 
+car: 34% 
+car: 28% 
+person: 86% 
+person: 71% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 85% 
+car: 84% 
+car: 55% 
+car: 39% 
+person: 78% 
+person: 42% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 85% 
+car: 81% 
+car: 58% 
+car: 38% 
+car: 26% 
+
+FPS:7.3 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 84% 
+car: 71% 
+car: 67% 
+car: 26% 
+person: 90% 
+person: 80% 
+person: 78% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 83% 
+car: 59% 
+car: 59% 
+car: 28% 
+car: 27% 
+person: 76% 
+person: 67% 
+person: 46% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 81% 
+car: 66% 
+car: 44% 
+car: 43% 
+car: 30% 
+person: 77% 
+person: 75% 
+person: 42% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 77% 
+car: 54% 
+car: 47% 
+person: 90% 
+person: 76% 
+person: 27% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 77% 
+car: 53% 
+car: 43% 
+car: 39% 
+car: 36% 
+person: 95% 
+person: 91% 
+person: 63% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 77% 
+car: 63% 
+car: 60% 
+car: 54% 
+car: 33% 
+car: 33% 
+person: 85% 
+person: 71% 
+person: 54% 
+person: 32% 
+person: 25% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 99% 
+car: 94% 
+car: 79% 
+car: 70% 
+car: 65% 
+car: 58% 
+car: 53% 
+car: 31% 
+person: 95% 
+person: 81% 
+person: 51% 
+person: 29% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 34% 
+car: 99% 
+car: 98% 
+car: 84% 
+car: 57% 
+car: 55% 
+car: 44% 
+car: 35% 
+person: 84% 
+person: 84% 
+person: 33% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 79% 
+car: 71% 
+car: 61% 
+car: 57% 
+person: 90% 
+person: 86% 
+person: 56% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 78% 
+car: 73% 
+car: 67% 
+car: 55% 
+car: 31% 
+person: 89% 
+person: 79% 
+person: 65% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+truck: 31% 
+car: 99% 
+car: 94% 
+car: 81% 
+car: 74% 
+car: 53% 
+car: 49% 
+car: 48% 
+car: 29% 
+person: 36% 
+person: 33% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 97% 
+car: 87% 
+car: 71% 
+car: 69% 
+car: 40% 
+car: 39% 
+person: 43% 
+person: 25% 
+
+FPS:7.2 	 AVG_FPS:7.3
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 97% 
+car: 85% 
+car: 84% 
+car: 52% 
+car: 30% 
+car: 28% 
+car: 26% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 84% 
+car: 75% 
+car: 41% 
+car: 41% 
+car: 40% 
+car: 34% 
+person: 31% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 96% 
+car: 81% 
+car: 54% 
+car: 46% 
+car: 43% 
+car: 37% 
+person: 49% 
+person: 27% 
+
+FPS:7.2 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 96% 
+car: 81% 
+car: 62% 
+car: 61% 
+car: 41% 
+car: 39% 
+person: 71% 
+person: 67% 
+person: 62% 
+person: 37% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 96% 
+car: 78% 
+car: 47% 
+car: 38% 
+car: 36% 
+car: 33% 
+person: 90% 
+person: 85% 
+person: 85% 
+person: 47% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 96% 
+car: 95% 
+car: 73% 
+car: 55% 
+car: 48% 
+car: 42% 
+person: 83% 
+person: 82% 
+person: 72% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 94% 
+car: 90% 
+car: 77% 
+car: 71% 
+car: 63% 
+car: 48% 
+car: 42% 
+person: 84% 
+person: 58% 
+person: 38% 
+person: 32% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 90% 
+car: 84% 
+car: 67% 
+car: 55% 
+car: 49% 
+car: 30% 
+car: 30% 
+bicycle: 34% 
+person: 72% 
+person: 64% 
+person: 56% 
+
+FPS:7.3 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 90% 
+car: 82% 
+car: 79% 
+car: 52% 
+car: 39% 
+car: 34% 
+person: 60% 
+person: 30% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 90% 
+car: 86% 
+car: 85% 
+car: 81% 
+car: 68% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 90% 
+car: 76% 
+car: 68% 
+car: 53% 
+car: 29% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 86% 
+car: 77% 
+car: 67% 
+car: 52% 
+car: 30% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 95% 
+car: 84% 
+car: 67% 
+car: 46% 
+car: 40% 
+car: 31% 
+person: 51% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 89% 
+car: 78% 
+car: 32% 
+person: 47% 
+person: 27% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 83% 
+car: 80% 
+car: 36% 
+car: 30% 
+person: 76% 
+person: 34% 
+
+FPS:7.4 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 34% 
+car: 98% 
+car: 82% 
+car: 80% 
+car: 48% 
+person: 59% 
+person: 28% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+truck: 27% 
+car: 92% 
+car: 84% 
+car: 72% 
+car: 47% 
+person: 55% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 90% 
+car: 71% 
+car: 31% 
+car: 31% 
+person: 45% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 29% 
+car: 97% 
+car: 85% 
+car: 73% 
+car: 38% 
+car: 34% 
+person: 57% 
+person: 26% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+car: 98% 
+car: 86% 
+car: 73% 
+car: 34% 
+person: 77% 
+person: 49% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 38% 
+car: 95% 
+car: 81% 
+car: 65% 
+car: 42% 
+person: 59% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+traffic light: 31% 
+traffic light: 27% 
+car: 97% 
+car: 81% 
+car: 62% 
+car: 53% 
+car: 27% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 90% 
+traffic light: 34% 
+car: 94% 
+car: 78% 
+car: 55% 
+car: 51% 
+car: 45% 
+person: 34% 
+
+FPS:7.5 	 AVG_FPS:7.2
+
+ cvWriteFrame 
+Objects:
+
+clock: 45% 
+traffic light: 64% 
+car: 94% 
+car: 80% 
+car: 70% 
+car: 56% 
+car: 51% 
+car: 28% 
+person: 40% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+clock: 52% 
+traffic light: 37% 
+truck: 54% 
+car: 66% 
+car: 86% 
+car: 81% 
+car: 75% 
+car: 60% 
+person: 44% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 26% 
+traffic light: 26% 
+car: 88% 
+car: 88% 
+car: 87% 
+car: 71% 
+car: 66% 
+car: 25% 
+person: 66% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+stop sign: 28% 
+traffic light: 35% 
+car: 93% 
+car: 91% 
+car: 90% 
+car: 68% 
+car: 54% 
+car: 34% 
+person: 78% 
+person: 67% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 90% 
+car: 90% 
+car: 88% 
+car: 72% 
+car: 47% 
+car: 34% 
+person: 70% 
+person: 41% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 33% 
+car: 79% 
+car: 90% 
+car: 88% 
+car: 74% 
+car: 39% 
+person: 72% 
+person: 50% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 91% 
+car: 88% 
+car: 84% 
+car: 73% 
+car: 39% 
+car: 27% 
+person: 80% 
+person: 29% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 92% 
+car: 89% 
+car: 83% 
+car: 27% 
+car: 25% 
+person: 81% 
+person: 47% 
+person: 40% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 89% 
+car: 88% 
+car: 84% 
+car: 26% 
+person: 49% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 90% 
+car: 88% 
+car: 87% 
+car: 27% 
+person: 58% 
+person: 32% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 91% 
+car: 91% 
+car: 88% 
+car: 48% 
+person: 75% 
+person: 54% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 89% 
+car: 89% 
+car: 88% 
+car: 47% 
+car: 38% 
+person: 69% 
+person: 56% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 89% 
+car: 88% 
+car: 87% 
+car: 50% 
+car: 35% 
+person: 53% 
+person: 42% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+clock: 28% 
+traffic light: 29% 
+car: 92% 
+car: 89% 
+car: 80% 
+car: 41% 
+car: 32% 
+person: 78% 
+person: 76% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 90% 
+car: 70% 
+car: 69% 
+car: 31% 
+person: 69% 
+person: 65% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 35% 
+car: 97% 
+car: 88% 
+car: 86% 
+car: 81% 
+car: 30% 
+person: 42% 
+person: 31% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 88% 
+car: 87% 
+car: 81% 
+car: 43% 
+car: 35% 
+car: 32% 
+person: 55% 
+person: 46% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 88% 
+car: 86% 
+car: 84% 
+car: 39% 
+car: 29% 
+car: 28% 
+person: 70% 
+person: 67% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 90% 
+car: 85% 
+car: 68% 
+car: 56% 
+car: 29% 
+person: 66% 
+person: 57% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 96% 
+car: 92% 
+car: 84% 
+car: 66% 
+car: 65% 
+car: 28% 
+car: 27% 
+person: 59% 
+person: 40% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 94% 
+car: 94% 
+car: 91% 
+car: 50% 
+car: 34% 
+car: 25% 
+person: 46% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 90% 
+car: 89% 
+car: 49% 
+car: 34% 
+person: 77% 
+person: 54% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 94% 
+car: 87% 
+car: 79% 
+car: 77% 
+car: 42% 
+car: 40% 
+car: 36% 
+car: 27% 
+person: 75% 
+person: 66% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 94% 
+car: 90% 
+car: 82% 
+car: 75% 
+car: 41% 
+person: 70% 
+person: 64% 
+person: 39% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 94% 
+car: 92% 
+car: 83% 
+car: 71% 
+car: 53% 
+car: 34% 
+person: 71% 
+person: 65% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+clock: 53% 
+car: 93% 
+car: 92% 
+car: 80% 
+car: 74% 
+car: 46% 
+car: 34% 
+car: 26% 
+person: 60% 
+person: 51% 
+person: 26% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 93% 
+car: 93% 
+car: 65% 
+car: 39% 
+car: 38% 
+car: 33% 
+person: 42% 
+person: 32% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 96% 
+car: 91% 
+car: 69% 
+car: 56% 
+car: 48% 
+car: 41% 
+car: 40% 
+person: 46% 
+person: 46% 
+person: 34% 
+person: 30% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 39% 
+car: 96% 
+car: 95% 
+car: 76% 
+car: 74% 
+car: 66% 
+car: 45% 
+car: 33% 
+person: 63% 
+person: 51% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+clock: 52% 
+car: 95% 
+car: 88% 
+car: 86% 
+car: 85% 
+car: 72% 
+car: 58% 
+car: 43% 
+car: 36% 
+car: 31% 
+person: 46% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+clock: 29% 
+car: 97% 
+car: 96% 
+car: 90% 
+car: 87% 
+car: 77% 
+car: 50% 
+car: 37% 
+car: 32% 
+car: 31% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 31% 
+car: 98% 
+car: 97% 
+car: 93% 
+car: 87% 
+car: 55% 
+car: 43% 
+car: 33% 
+car: 32% 
+car: 31% 
+car: 31% 
+car: 30% 
+person: 40% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 41% 
+car: 97% 
+car: 97% 
+car: 90% 
+car: 81% 
+car: 54% 
+car: 40% 
+car: 35% 
+car: 32% 
+car: 26% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 28% 
+car: 97% 
+car: 94% 
+car: 86% 
+car: 73% 
+car: 53% 
+car: 50% 
+car: 40% 
+car: 28% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+motorbike: 32% 
+car: 97% 
+car: 97% 
+car: 96% 
+car: 78% 
+car: 59% 
+car: 54% 
+car: 29% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 95% 
+car: 88% 
+car: 60% 
+car: 55% 
+car: 47% 
+car: 44% 
+car: 38% 
+person: 33% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 95% 
+car: 67% 
+car: 67% 
+car: 55% 
+car: 53% 
+car: 41% 
+car: 31% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+motorbike: 36% 
+car: 96% 
+car: 94% 
+car: 48% 
+car: 38% 
+car: 36% 
+car: 32% 
+car: 28% 
+person: 26% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+clock: 53% 
+car: 93% 
+car: 86% 
+car: 53% 
+car: 45% 
+car: 42% 
+car: 33% 
+car: 31% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 93% 
+car: 89% 
+car: 82% 
+car: 50% 
+car: 49% 
+car: 47% 
+car: 29% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+boat: 40% 
+car: 95% 
+car: 78% 
+car: 78% 
+car: 65% 
+car: 43% 
+car: 41% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+boat: 54% 
+car: 96% 
+car: 86% 
+car: 80% 
+car: 62% 
+car: 34% 
+car: 30% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+boat: 57% 
+car: 97% 
+car: 85% 
+car: 85% 
+car: 64% 
+car: 57% 
+car: 40% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+boat: 44% 
+car: 95% 
+car: 92% 
+car: 82% 
+car: 61% 
+car: 43% 
+car: 30% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 94% 
+car: 75% 
+car: 56% 
+car: 47% 
+car: 32% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 97% 
+car: 94% 
+car: 69% 
+car: 66% 
+car: 49% 
+car: 49% 
+car: 29% 
+car: 26% 
+car: 25% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 30% 
+car: 99% 
+car: 97% 
+car: 96% 
+car: 60% 
+car: 36% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 30% 
+car: 98% 
+car: 94% 
+car: 91% 
+car: 50% 
+car: 34% 
+car: 27% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+traffic light: 28% 
+truck: 32% 
+car: 98% 
+car: 95% 
+car: 79% 
+car: 55% 
+car: 45% 
+car: 43% 
+person: 59% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 95% 
+car: 95% 
+car: 91% 
+car: 68% 
+bicycle: 33% 
+person: 31% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+motorbike: 28% 
+car: 97% 
+car: 96% 
+car: 96% 
+car: 72% 
+car: 45% 
+car: 45% 
+person: 73% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 97% 
+car: 97% 
+car: 59% 
+car: 46% 
+car: 41% 
+car: 35% 
+bicycle: 35% 
+person: 83% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+truck: 33% 
+car: 98% 
+car: 97% 
+car: 96% 
+car: 68% 
+car: 64% 
+car: 54% 
+car: 27% 
+bicycle: 40% 
+person: 77% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 95% 
+car: 60% 
+car: 54% 
+car: 54% 
+person: 81% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 98% 
+car: 94% 
+car: 94% 
+car: 68% 
+car: 45% 
+car: 42% 
+car: 26% 
+bicycle: 39% 
+person: 54% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 95% 
+car: 64% 
+car: 54% 
+bicycle: 48% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 92% 
+car: 61% 
+car: 49% 
+bicycle: 75% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 94% 
+car: 48% 
+car: 40% 
+bicycle: 72% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 68% 
+car: 55% 
+bicycle: 70% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 59% 
+car: 55% 
+car: 41% 
+car: 25% 
+bicycle: 38% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 73% 
+car: 58% 
+person: 60% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 67% 
+car: 49% 
+car: 35% 
+car: 33% 
+car: 28% 
+bicycle: 47% 
+bicycle: 27% 
+person: 80% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 57% 
+car: 51% 
+car: 33% 
+car: 29% 
+car: 28% 
+person: 90% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 76% 
+car: 65% 
+car: 46% 
+car: 31% 
+person: 93% 
+person: 33% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 99% 
+car: 64% 
+car: 58% 
+car: 48% 
+car: 38% 
+car: 38% 
+person: 90% 
+person: 46% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 99% 
+car: 72% 
+car: 69% 
+car: 44% 
+car: 29% 
+person: 92% 
+person: 34% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 68% 
+car: 49% 
+car: 40% 
+person: 74% 
+person: 38% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+motorbike: 35% 
+car: 100% 
+car: 98% 
+car: 98% 
+car: 74% 
+car: 63% 
+car: 55% 
+person: 63% 
+person: 31% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 81% 
+car: 55% 
+car: 52% 
+car: 52% 
+car: 42% 
+person: 75% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 73% 
+car: 70% 
+car: 65% 
+car: 51% 
+car: 35% 
+person: 61% 
+person: 27% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 96% 
+car: 70% 
+car: 61% 
+car: 60% 
+car: 57% 
+car: 42% 
+car: 27% 
+person: 42% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 94% 
+car: 82% 
+car: 68% 
+car: 65% 
+car: 62% 
+car: 41% 
+car: 29% 
+person: 64% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 85% 
+car: 63% 
+car: 63% 
+car: 60% 
+car: 38% 
+car: 26% 
+person: 68% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 97% 
+car: 85% 
+car: 81% 
+car: 76% 
+car: 64% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 78% 
+car: 77% 
+car: 66% 
+car: 48% 
+car: 40% 
+person: 60% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 80% 
+car: 78% 
+car: 70% 
+car: 36% 
+person: 91% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+stop sign: 32% 
+car: 100% 
+car: 99% 
+car: 99% 
+car: 79% 
+car: 72% 
+car: 70% 
+car: 69% 
+car: 59% 
+person: 37% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+stop sign: 37% 
+car: 100% 
+car: 99% 
+car: 98% 
+car: 84% 
+car: 75% 
+car: 72% 
+car: 68% 
+car: 58% 
+car: 44% 
+person: 32% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 87% 
+car: 85% 
+car: 80% 
+car: 65% 
+car: 58% 
+car: 32% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 97% 
+car: 90% 
+car: 88% 
+car: 77% 
+car: 76% 
+car: 64% 
+car: 63% 
+car: 41% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 92% 
+car: 87% 
+car: 86% 
+car: 73% 
+car: 63% 
+car: 50% 
+car: 42% 
+car: 36% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 87% 
+car: 83% 
+car: 83% 
+car: 76% 
+car: 63% 
+car: 57% 
+car: 56% 
+car: 34% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 88% 
+car: 81% 
+car: 80% 
+car: 78% 
+car: 62% 
+car: 45% 
+car: 29% 
+car: 28% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 92% 
+car: 84% 
+car: 79% 
+car: 78% 
+car: 47% 
+car: 40% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 94% 
+car: 85% 
+car: 82% 
+car: 76% 
+car: 72% 
+car: 26% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 93% 
+car: 85% 
+car: 74% 
+car: 65% 
+car: 55% 
+car: 31% 
+car: 30% 
+car: 27% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 94% 
+car: 87% 
+car: 79% 
+car: 72% 
+car: 55% 
+car: 45% 
+car: 43% 
+car: 42% 
+car: 35% 
+car: 29% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 96% 
+car: 81% 
+car: 76% 
+car: 67% 
+car: 64% 
+car: 53% 
+car: 47% 
+car: 45% 
+car: 34% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 94% 
+car: 80% 
+car: 75% 
+car: 69% 
+car: 69% 
+car: 51% 
+car: 48% 
+car: 46% 
+car: 29% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 94% 
+car: 81% 
+car: 76% 
+car: 67% 
+car: 67% 
+car: 66% 
+car: 29% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 90% 
+car: 82% 
+car: 75% 
+car: 59% 
+car: 56% 
+car: 44% 
+car: 28% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 84% 
+car: 81% 
+car: 76% 
+car: 74% 
+car: 67% 
+car: 54% 
+car: 45% 
+car: 44% 
+car: 42% 
+car: 32% 
+car: 29% 
+car: 26% 
+
+FPS:7.4 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 90% 
+car: 80% 
+car: 79% 
+car: 76% 
+car: 50% 
+car: 39% 
+car: 35% 
+car: 26% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 90% 
+car: 88% 
+car: 87% 
+car: 64% 
+car: 51% 
+car: 38% 
+car: 34% 
+car: 26% 
+car: 25% 
+car: 25% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 91% 
+car: 89% 
+car: 79% 
+car: 58% 
+car: 57% 
+car: 51% 
+car: 34% 
+car: 34% 
+car: 33% 
+car: 32% 
+car: 26% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 91% 
+car: 91% 
+car: 87% 
+car: 58% 
+car: 56% 
+car: 52% 
+car: 40% 
+car: 31% 
+car: 30% 
+car: 30% 
+car: 29% 
+car: 28% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 97% 
+car: 90% 
+car: 89% 
+car: 86% 
+car: 72% 
+car: 64% 
+car: 63% 
+car: 54% 
+car: 51% 
+car: 44% 
+car: 40% 
+car: 40% 
+car: 26% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 98% 
+car: 95% 
+car: 87% 
+car: 84% 
+car: 83% 
+car: 82% 
+car: 79% 
+car: 63% 
+car: 55% 
+car: 55% 
+car: 48% 
+car: 32% 
+car: 31% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 96% 
+car: 95% 
+car: 93% 
+car: 86% 
+car: 80% 
+car: 71% 
+car: 62% 
+car: 60% 
+car: 45% 
+car: 39% 
+car: 38% 
+car: 35% 
+car: 32% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 95% 
+car: 93% 
+car: 91% 
+car: 78% 
+car: 74% 
+car: 61% 
+car: 60% 
+car: 55% 
+car: 53% 
+car: 50% 
+car: 48% 
+car: 32% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 98% 
+car: 96% 
+car: 96% 
+car: 89% 
+car: 82% 
+car: 76% 
+car: 58% 
+car: 48% 
+car: 47% 
+car: 44% 
+car: 43% 
+car: 42% 
+car: 36% 
+car: 32% 
+car: 31% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 96% 
+car: 94% 
+car: 91% 
+car: 80% 
+car: 78% 
+car: 55% 
+car: 52% 
+car: 46% 
+car: 44% 
+car: 41% 
+car: 40% 
+car: 34% 
+car: 32% 
+car: 30% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 98% 
+car: 98% 
+car: 96% 
+car: 92% 
+car: 90% 
+car: 84% 
+car: 74% 
+car: 74% 
+car: 41% 
+car: 37% 
+car: 35% 
+car: 34% 
+car: 31% 
+car: 30% 
+car: 29% 
+car: 29% 
+car: 26% 
+
+FPS:7.5 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 98% 
+car: 97% 
+car: 95% 
+car: 92% 
+car: 83% 
+car: 76% 
+car: 49% 
+car: 45% 
+car: 40% 
+car: 37% 
+car: 36% 
+car: 28% 
+car: 27% 
+car: 26% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 97% 
+car: 96% 
+car: 93% 
+car: 91% 
+car: 83% 
+car: 72% 
+car: 59% 
+car: 52% 
+car: 51% 
+car: 47% 
+car: 44% 
+car: 31% 
+car: 30% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 96% 
+car: 95% 
+car: 95% 
+car: 94% 
+car: 83% 
+car: 80% 
+car: 79% 
+car: 67% 
+car: 63% 
+car: 57% 
+car: 49% 
+car: 41% 
+car: 40% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 95% 
+car: 95% 
+car: 93% 
+car: 91% 
+car: 86% 
+car: 82% 
+car: 73% 
+car: 70% 
+car: 61% 
+car: 55% 
+car: 49% 
+car: 44% 
+car: 44% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 96% 
+car: 94% 
+car: 91% 
+car: 89% 
+car: 77% 
+car: 72% 
+car: 66% 
+car: 60% 
+car: 48% 
+car: 47% 
+car: 45% 
+car: 29% 
+car: 26% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 96% 
+car: 95% 
+car: 94% 
+car: 92% 
+car: 81% 
+car: 81% 
+car: 70% 
+car: 60% 
+car: 52% 
+car: 43% 
+car: 39% 
+car: 31% 
+car: 28% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 99% 
+car: 96% 
+car: 96% 
+car: 95% 
+car: 91% 
+car: 86% 
+car: 70% 
+car: 55% 
+car: 48% 
+car: 34% 
+car: 31% 
+car: 28% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 100% 
+car: 98% 
+car: 96% 
+car: 95% 
+car: 94% 
+car: 91% 
+car: 83% 
+car: 71% 
+car: 59% 
+car: 41% 
+car: 30% 
+car: 30% 
+car: 27% 
+car: 25% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 97% 
+car: 92% 
+car: 90% 
+car: 88% 
+car: 88% 
+car: 73% 
+car: 65% 
+car: 51% 
+car: 37% 
+
+FPS:7.6 	 AVG_FPS:7.5
+
+ cvWriteFrame 
+Objects:
+
+car: 99% 
+car: 99% 
+car: 96% 
+car: 95% 
+car: 87% 
+car: 86% 
+car: 86% 
+car: 65% 
+car: 59% 
+car: 57% 
+car: 41% 
+car: 28% 
+
+FPS:7.6 	 AVG_FPS:7.5
+Stream closed.
+
+ cvWriteFrame 
+input video stream closed. 
+ closing... closed!output_video_writer closed. 
